@@ -2,7 +2,7 @@
 The next wave, rag is all you need
 # **Applying OpenAI's RAG Strategies**
 
-![RAG]()
+![RAG](imgs/rag.png)
 
 - KEY MESSAGE
     - **The ability to understand and these methods on your application is critical: from talking to many partners and users, there is no "one-size-fits-all" solution because different problems require different retrieval techniques.**
