@@ -2,7 +2,7 @@
 The next wave, rag is all you need
 # **Applying OpenAI's RAG Strategies**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/858c1e09-946a-432c-87d5-cfea9633db92/4359ab19-a7d8-4b41-b95c-6eddb71e6187/Untitled.png)
+![RAG]()
 
 - KEY MESSAGE
     - **The ability to understand and these methods on your application is critical: from talking to many partners and users, there is no "one-size-fits-all" solution because different problems require different retrieval techniques.**
