@@ -22,6 +22,12 @@ The next wave, rag is all you need
 
 - https://github.com/texttron/hyde
 
+| Aspect | Problem | Resolution with HyDE |
+| --- | --- | --- |
+| Retrieval | Inefficient zero-shot retrieval | Enhances zero-shot performance using language models |
+| Data Dependency | Heavy reliance on labeled data | Operates effectively without needing human-labeled data |
+| Generalization | Limited adaptability across languages and tasks | Improved generalization across various languages and tasks |
+
 ### **[MultiQueryRetriever](https://python.langchain.com/docs/modules/data_connection/retrievers/MultiQueryRetriever)**
 
 - For example
@@ -48,6 +54,21 @@ The next wave, rag is all you need
     1. Use Azure Open AI instead of OpenAi API
     
     https://api.python.langchain.com/en/latest/embeddings/langchain.embeddings.openai.OpenAIEmbeddings.html#
+    
+    1. Resolve the chroma db issue
+    
+    ```python
+    RuntimeError: Your system has an unsupported version of sqlite3. Chroma                     requires sqlite3 >= 3.35.0.
+    Please visit                     https://docs.trychroma.com/troubleshooting#sqlite to learn how                     to upgrade.
+    ```
+    
+    - refer the [site](https://docs.trychroma.com/troubleshooting#sqlite) to solve the issue to add three lines at the beginning of the code
+    
+    ```python
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+    ```
     
     - refer
     
