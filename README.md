@@ -1,6 +1,8 @@
-# rag
+
+# RAG
 The next wave, rag is all you need
-# **Applying OpenAI's RAG Strategies**
+
+# **[Applying OpenAI's RAG Strategies](https://blog.langchain.dev/applying-openai-rag/)**
 
 ![RAG](imgs/rag.png)
 
@@ -21,6 +23,7 @@ The next wave, rag is all you need
 ## [Query Transformation](https://blog.langchain.dev/query-transformations/)
 
 - https://github.com/texttron/hyde
+    - Explain：[blog - LangChain Hypothetical Document Embeddings (HyDE) 全面解説 (jiang.jp)](https://www.jiang.jp/posts/20230510_hyde_detailed/)
 
 | Aspect | Problem | Resolution with HyDE |
 | --- | --- | --- |
@@ -74,8 +77,20 @@ The next wave, rag is all you need
     
     [Deep Dive into the Internals of Langchain Vector Store Retriever](https://rito.hashnode.dev/deep-dive-into-the-internals-of-langchain-vector-store-retriever)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/858c1e09-946a-432c-87d5-cfea9633db92/67886c3b-a0a6-4643-8c36-7b6a9da30b4a/Untitled.png)
+    ![Vector-store](imgs/vector-store.png)
     
-    **TO READ**
-    
-    **[9 Methods to Enhance the Performance of a LLM RAG Application](https://tam159.medium.com/9-methods-to-enhance-the-performance-of-a-llm-rag-application-3bedfdc842e1)**
+
+### Re-Ranking
+
+- **[Cohereの多言語用の埋め込みモデルを日本語で評価してみる](https://hironsan.hatenablog.com/entry/2023/11/06/133504)**
+    - 測定したデー[タセット](https://d.hatena.ne.jp/keyword/%A5%BF%A5%BB%A5%C3%A5%C8)においては、OpenAIの`text-embedding-ada-002`を上回る性能を示しており、性能の高いモデルであること
+    - **[RAG But Better: Rerankers with Cohere AI](https://www.youtube.com/watch?v=Uh9bYiVrW_s)**
+    - ****Cohere Embed V3 - Nils Reimers | Vector Space Talks****
+- RAG-fusion
+    - https://medium.com/@kiran.phd.0102/rag-fusion-revolution-a-paradigm-shift-in-generative-ai-2349b9f81c66
+
+### **TO READ**
+
+**[9 Methods to Enhance the Performance of a LLM RAG Application](https://tam159.medium.com/9-methods-to-enhance-the-performance-of-a-llm-rag-application-3bedfdc842e1)**
+
+https://github.com/docker/genai-stack
